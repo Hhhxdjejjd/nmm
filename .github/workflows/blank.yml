@@ -37,5 +37,15 @@ jobs:
                 
           - name: idk
             run: echo hello
+  hey:
+   runs-on: ubuntu-latest
+   needs: [test]
+   
+   steps:
+           - name: jk
+             run: echo hello
+           - name: two
+             run: echo idk
+                
 
   
